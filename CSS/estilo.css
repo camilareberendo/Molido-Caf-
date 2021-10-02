@@ -49,13 +49,6 @@ header{
 
 
 
-
-
-
-
-
-
-
 /* HOME */
 h1{
     font-family: 'Lora', serif;  
@@ -104,18 +97,9 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
 /* HOME - section 1 */
 .section_1{
-    background-image:url(../Imágenes/fondo\ título\ section\ 1.jpg);
+    background-image:url(../Imágenes/img\ section\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 170px 70px 120px 70px;
@@ -139,6 +123,19 @@ p{
 .section_1 a {
     padding-left: 80px;
 }
+
+
+/* @media sección 1 */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .section_1 {
+        padding: 100px 40px;
+       
+    }
+
+}
+
+
 
 
 
