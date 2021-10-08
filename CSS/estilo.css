@@ -27,6 +27,7 @@ nav{
 
 .logo{
     margin-left: 70px;
+    width: 100px;
 }
 
 .bar-btn{
@@ -34,6 +35,7 @@ nav{
     color: #363636;
     margin-right: 70px;
     cursor:pointer;
+    padding: 0px;
 }
 
 .nav-menu{
