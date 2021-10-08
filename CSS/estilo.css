@@ -582,6 +582,11 @@ p{
     width: 400px;
 }
 
+.grano div div img{
+    width: 350px;
+    height: auto;
+}
+
 
 
 
@@ -621,7 +626,10 @@ p{
     width: 400px;
 }
 
-
+.molido div div img{
+    width: 350px;
+    height: auto;
+}
 
 /* CAFE - section 4 (CÁPSULAS) */
 .capsulas {
@@ -660,7 +668,10 @@ p{
     width: 400px;
 }
 
-
+.capsulas div div img{
+    width: 350px;
+    height: auto;
+}
 
 @media screen and (min-width:1000px) {
     .section_cafe{
@@ -726,8 +737,6 @@ p{
         padding-top: 50px;
     }
 
-
-
     .molido div div {
         padding: 0px;
     }
@@ -740,8 +749,6 @@ p{
         padding-bottom: 50px;
         padding-top: 100px;
     }
-
-
 
     .capsulas div div {
         padding: 0px;
@@ -757,6 +764,7 @@ p{
     }
 
 }
+
 
 
 
@@ -1275,15 +1283,13 @@ div ul li {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr); 
     grid-template-areas:
-    "img section_form";
+    "tres_formatos section_form";
     padding-bottom: 150px;
     background-color: #f5f5f5;
     justify-items: center;
     align-items: center;
     grid-column-gap: 80px;
 }
-
-
 
 
 
@@ -1301,27 +1307,21 @@ div ul li {
         grid-column-gap: 80px;
     }
 
-    .img {
+    .tres_formatos {
         display:none;
     }
     
 }
 
 
-
-
-
-
-
-
 /* Imagen */
-.img{
-grid-area: img;
+.tres_formatos{
+grid-area: tres_formatos;
 justify-self:end;
 }
 
 
-.img img{
+.tres_formatos img{
     width: auto;
     height: 600px;
     border-radius: 8px;
