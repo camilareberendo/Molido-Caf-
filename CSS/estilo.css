@@ -897,7 +897,6 @@ p{
     .videos-5{
         grid-area: videos-5;
     }
-
 }
 
 @media screen and (min-width:1100px) and (max-width:1400px){
@@ -967,8 +966,45 @@ p{
     .videos-5{
         grid-area: videos-5;
     }
-
 }
+
+
+@media screen and (max-width:600px){
+
+    .videos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr); 
+        grid-template-areas:
+        "videos-1" 
+        "videos-2"
+        "videos-3"
+        "videos-4"
+        "videos-5";
+
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 15px;
+    }
+
+    .videos-1{
+        grid-area: videos-1;
+    }
+    .videos-2{
+        grid-area: videos-2;
+    }
+    .videos-3{
+        grid-area: videos-3;
+    }
+    .videos-4{
+        grid-area: videos-4;
+    }
+    .videos-5{
+        grid-area: videos-5;
+    }
+}
+
+
 
 
 @media screen and (min-width:1000px) {
@@ -1106,7 +1142,7 @@ p{
     justify-content: center;
     align-items: flex-end;
 
-    padding: 40px 0px;
+    padding: 40px 0px 100px;
     background-color: #f9f9f9;
 }
 .capsula_4 div {
@@ -1158,12 +1194,16 @@ div ul li {
 }
 
 
-div img {
+.section_flex_1 div img {
     width: 150px;
     height: 150px;
     border-radius: 8px;
 }
 
+.section_flex_1 div img:hover {
+    transform: scale(1.1,1.1);
+    transition: .3s;
+}
 
 
 .subtitulo{
