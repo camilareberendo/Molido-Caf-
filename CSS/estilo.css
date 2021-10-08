@@ -1068,7 +1068,7 @@ p{
     padding: 40px 0px;
 }
 .capsula_1 div {
-    padding: 40px;
+    padding: 30px;
 }
 
 .capsula_2{   /* contenedor padre para FLEX */  
@@ -1082,7 +1082,7 @@ p{
     background-color: #f9f9f9;
 }
 .capsula_2 div {
-    padding: 40px;
+    padding: 30px;
 }
 
 .capsula_3{   /* contenedor padre para FLEX */  
@@ -1095,7 +1095,7 @@ p{
     padding: 40px 0px;
 }
 .capsula_3 div {
-    padding: 40px;
+    padding: 30px;
 }
 
 
@@ -1110,7 +1110,7 @@ p{
     background-color: #f9f9f9;
 }
 .capsula_4 div {
-    padding: 40px;
+    padding: 30px;
 }
 
 
@@ -1152,8 +1152,9 @@ div ul li {
     text-transform:initial;
     letter-spacing: 0.7px;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    list-style-position: inside
+    font-size: 13.5px;
+    list-style-position: inside;
+    line-height: 23px;
 }
 
 
@@ -1167,11 +1168,10 @@ div img {
 
 .subtitulo{
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1.5px;
+    font-size: 13.5px;
+    letter-spacing: 1px;
     font-weight:bold;
     color: #2c7d96;
-    padding-bottom: 10px;
 }
 
 
