@@ -1090,9 +1090,6 @@ p{
     color: #d3d3d3;
 }
 
-
-
-
 .section_flex_1{
     /* FLEX */
     display: flex;
@@ -1152,6 +1149,25 @@ p{
 }
 .capsula_4 div {
     padding: 30px;
+}
+
+
+@media screen and (min-width:1150px) {
+    .capsula_1 div {
+        padding: 70px;
+    }
+
+    .capsula_2 div {
+        padding: 70px;
+    }
+
+    .capsula_3 div {
+        padding: 70px;
+    }
+
+    .capsula_4 div {
+        padding: 70px;
+    }
 }
 
 
