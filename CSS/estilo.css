@@ -6,6 +6,9 @@
     box-sizing: border-box;
 } 
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* Menú responsive, normal y hamburguesa */
 
@@ -282,10 +285,6 @@ p{
 .formatos div img:hover {
     transform: scale(1.1,1.1);
     transition: .3s;
-}
-
-#bajar{
-    scroll-behavior: smooth;
 }
 
 
