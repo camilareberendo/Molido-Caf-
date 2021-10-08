@@ -85,6 +85,7 @@ nav{
 
     .logo{
         margin-left: 70px;
+        width: 100px;
     }
 
     nav{
@@ -93,6 +94,7 @@ nav{
 
     .bar-btn{
         display: none;
+        padding: 0px;
     }
 
     .nav-menu{
@@ -125,6 +127,7 @@ nav{
 
     .logo{
         margin-left: 160px;
+        width: 100px;
     }
 
     .nav-menu{
