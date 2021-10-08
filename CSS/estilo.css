@@ -1002,6 +1002,11 @@ p{
     .videos-5{
         grid-area: videos-5;
     }
+
+    .section_videos{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
