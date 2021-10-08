@@ -582,13 +582,6 @@ p{
     width: 400px;
 }
 
-.grano div div img{
-    width: 350px;
-    height: auto;
-}
-
-
-
 
 /* CAFE - section 3 (MOLIDO) */
 .molido {
@@ -626,10 +619,6 @@ p{
     width: 400px;
 }
 
-.molido div div img{
-    width: 350px;
-    height: auto;
-}
 
 /* CAFE - section 4 (CÁPSULAS) */
 .capsulas {
@@ -668,10 +657,7 @@ p{
     width: 400px;
 }
 
-.capsulas div div img{
-    width: 350px;
-    height: auto;
-}
+
 
 @media screen and (min-width:1000px) {
     .section_cafe{
